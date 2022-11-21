@@ -1,67 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QLSV</title>
-    <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/7b85820244.js" crossorigin="anonymous"></script>
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body id="body">
+  <body id="body">
     <header>
-        <div class="icon_menu" id="btn_open">
-            <i class="fa-solid fa-bars" ></i>
-        </div>
-    </header>    
-    
-    <div class="menu_side" id="menu_side">
+      <div class="icon_menu" id="btn_open">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
 
-            <div class="name_page">
-                <i class="fa-solid fa-people-roof"></i>
-                <h3>BabyGaxy</h3>
-            </div>
-        
-        
-        <div class="menu_options">
-            <!-- options Dashboard -->
-            <a href="#" >
-                <div class="option">
+    <div class="menu_side" id="menu_side">
+      <div class="name_page">
+        <i class="fa-solid fa-people-roof"></i>
+        <h3>QLSV</h3>
+      </div>
+
+      <nav class="menu_options">
+        <!-- options Dashboard -->
+        <ul>
+          <li class="list">
+            <!-- Bang dieu khien -->
+            <div class="option1">
+                <a href="#" class="sub_btn">
                     <i class="fa-solid fa-border-all"></i>
                     <h4>Bảng điều khiển</h4>
-                 
-                </div>
-            </a>
-            <!-- options Student -->
-            <a href="#" class="selected">
+                    <span class="fas fa-angle-right dropdown first"></span>
+                </a>
+            </div>
+            <ul class="sub_menu">
+              <a href="#" class="sub_item">Quản trị viên</a>
+              <a href="#" class="sub_item">Giáo viên</a>
+            </ul>
+            
+          
+            <a href="#" class="sub_btn">
                 <div class="option">
                     <i class="fa-solid fa-graduation-cap"></i>
                     <h4>Sinh viên</h4>
                 </div>
             </a>
-        
-            <a href="#">
-                <div class="option">
-                    <i class="fa-solid fa-chalkboard-user"></i>
-                    <h4>Giảng viên</h4>
-                </div>
-            </a>
-            
-            <a href="#">
-                <div class="option">
-                    <i class="fa-regular fa-calendar"></i>
-                    <h4>Bảng điểm</h4>
-                </div>
-            </a>
-        </div>
-     
+
+        <a href="#" class="sub_btn">
+          <div class="option">
+            <i class="fa-solid fa-chalkboard-user"></i>
+            <h4>Giảng viên</h4>
+          </div>
+        </a>
+
+        <a href="#" class="sub_btn">
+          <div class="option">
+            <i class="fa-regular fa-calendar"></i>
+            <h4>Bảng điểm</h4>
+          </div>
+        </a>
+
+
+          </li>
+        </ul>
+
+      </nav>
     </div>
     <main>
-          <h1>Hello welcome</h1><br>
-        <p>Zao sheng hao zung wo, shenzai wai-oh bing chilling, Wo han she huầy bing chilling.
-        </p>
+      <h1>Hello welcome</h1>
+      <br />
+      <p>
+         Zao sheng hao zung wo, shenzai wai-oh bing chilling, Wo han she huầy
+        bing chilling.
+      </p>
     </main>
     <script src="main.js"></script>
-</body>
-</html>
+ 
+  </body>
+</html>  
+  <!-- <div class="option2">
+                <a href="#" class="sub_btn">
+                    <i class="fa-solid fa-border-all"></i>
+                    <h4>Sinh viên</h4>
+                    <span class="fas fa-angle-right dropdown first"></span>
+                </a>
+            </div>
+            <ul class="sub_menu">
+              <a href="#" class="sub_item">Thêm sinh viên</a>
+              
+            </ul> -->
