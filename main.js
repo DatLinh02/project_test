@@ -30,6 +30,9 @@ window.addEventListener("resize", function () {
 
 const dropDown1 = document.querySelector(".option1");
 const dropDown2 = document.querySelector(".option2");
+const dropDown3 = document.querySelector(".option3");
+const dropDown4 = document.querySelector(".option4");
+
 
 dropDown1.addEventListener("click", function (e) {
   const dropdownList = e.target.nextElementSibling;
@@ -39,6 +42,20 @@ dropDown1.addEventListener("click", function (e) {
   }
 });
 dropDown2.addEventListener("click", function (e) {
+    const dropdownList = e.target.nextElementSibling;
+  
+    if (dropdownList) {
+      dropdownList.classList.toggle("show");
+    }
+  });
+dropDown3.addEventListener("click", function (e) {
+    const dropdownList = e.target.nextElementSibling;
+  
+    if (dropdownList) {
+      dropdownList.classList.toggle("show");
+    }
+  });
+dropDown4.addEventListener("click", function (e) {
     const dropdownList = e.target.nextElementSibling;
   
     if (dropdownList) {

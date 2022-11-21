@@ -108,9 +108,10 @@ header {
     display: block;
     position: relative;
 }
-.menu_options .option1:hover
+.option1:hover
 {
-    color: aqua;   
+ 
+    background-color: #3d5ee1;  
 }
 
 
@@ -118,12 +119,6 @@ header {
   color: #3d5ee1;
   /* background-color: red */
 }
-/* .menu_options .option {
-  padding: 20px 0px;
-  display: flex;
-  position: relative;
-  align-items: center;
-} */
 
 /* list */
 .list a .dropdown {
@@ -142,7 +137,11 @@ nav ul {
 .option2 * 
 {
     pointer-events: none;
-}
+}   
+.option3 * 
+{
+    pointer-events: none;
+}   
 /*  */  
     
 .sub_menu .sub_item {
@@ -155,9 +154,9 @@ nav ul {
   padding: 0px 10px;
   border-radius: 15px;
 }
-.sub_menu .sub_item:hover {
+nav ul li ul:hover {
   background-color: #3d5ee1;
-  /* border-radius: 10px; */
+  border-radius: 10px;
 }
 .sub_menu { 
     display: none;
