@@ -105,26 +105,26 @@ header {
 }
 .menu_options .option1
 {
-    display: block;
-    position: relative;
+  display: block;
+  position: relative;
 }
-.option1:hover
+.menu_options .option2
 {
- 
-    background-color: #3d5ee1;  
+  display: block;
+  position: relative;
+}
+.menu_options .option3
+{
+  display: block;
+  position: relative;
 }
 
-
-.menu_options ul li a:hover {
-  color: #3d5ee1;
-  /* background-color: red */
-}
 
 /* list */
 .list a .dropdown {
   position: absolute;
-  right: -50px;
-  font-size: 20px;
+  right: -42px;
+  font-size: 15px;
   margin: 10px;
 }   
 nav ul {
@@ -151,8 +151,7 @@ nav ul {
 
   line-height: 60px;
   display: block;
-  padding: 0px 10px;
-  border-radius: 15px;
+  padding: 0px 7px; 
 }
 nav ul li ul:hover {
   background-color: #3d5ee1;
@@ -163,8 +162,8 @@ nav ul li ul:hover {
   }
   
 .sub_menu.show {
-    display: block;
-  }
+    display: inline-block;
+}
 
 
 .menu_options ul a {
